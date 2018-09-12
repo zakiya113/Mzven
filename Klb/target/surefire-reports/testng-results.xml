@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="52529" started-at="2018-09-11T06:17:32Z" finished-at="2018-09-11T06:18:24Z">
+  <suite name="Suite" duration-ms="66510" started-at="2018-09-11T09:35:35Z" finished-at="2018-09-11T09:36:42Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="52529" started-at="2018-09-11T06:17:32Z" finished-at="2018-09-11T06:18:24Z">
+    <test name="Test" duration-ms="66510" started-at="2018-09-11T09:35:35Z" finished-at="2018-09-11T09:36:42Z">
       <class name="Nxt.Minds">
-        <test-method status="PASS" signature="main()[pri:0, instance:Nxt.Minds@1e6d1014]" name="main" duration-ms="32377" started-at="2018-09-11T06:17:32Z" finished-at="2018-09-11T06:18:04Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:Nxt.Minds@1e6d1014]" name="main" duration-ms="43289" started-at="2018-09-11T09:35:35Z" finished-at="2018-09-11T09:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="skip()[pri:0, instance:Nxt.Minds@1e6d1014]" name="skip" is-config="true" duration-ms="20105" started-at="2018-09-11T06:18:04Z" finished-at="2018-09-11T06:18:24Z">
+        <test-method status="PASS" signature="skip()[pri:0, instance:Nxt.Minds@1e6d1014]" name="skip" is-config="true" duration-ms="23198" started-at="2018-09-11T09:36:19Z" finished-at="2018-09-11T09:36:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skip -->

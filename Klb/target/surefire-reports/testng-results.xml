@@ -1,21 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="155282" started-at="2018-09-12T06:47:43Z" finished-at="2018-09-12T06:50:18Z">
+  <suite name="Suite" duration-ms="62743" started-at="2018-09-12T09:05:32Z" finished-at="2018-09-12T09:06:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="155282" started-at="2018-09-12T06:47:43Z" finished-at="2018-09-12T06:50:18Z">
+    <test name="Facebook" duration-ms="50661" started-at="2018-09-12T09:05:32Z" finished-at="2018-09-12T09:06:23Z">
       <class name="Nxt.Minds">
-        <test-method status="PASS" signature="main()[pri:0, instance:Nxt.Minds@1e6d1014]" name="main" duration-ms="28975" started-at="2018-09-12T06:47:43Z" finished-at="2018-09-12T06:48:12Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:Nxt.Minds@1e6d1014]" name="main" duration-ms="27254" started-at="2018-09-12T09:05:32Z" finished-at="2018-09-12T09:05:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="skip()[pri:0, instance:Nxt.Minds@1e6d1014]" name="skip" is-config="true" duration-ms="126274" started-at="2018-09-12T06:48:12Z" finished-at="2018-09-12T06:50:18Z">
+        <test-method status="PASS" signature="skip()[pri:0, instance:Nxt.Minds@1e6d1014]" name="skip" is-config="true" duration-ms="23390" started-at="2018-09-12T09:05:59Z" finished-at="2018-09-12T09:06:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skip -->
       </class> <!-- Nxt.Minds -->
-    </test> <!-- Test -->
+    </test> <!-- Facebook -->
+    <test name="Google" duration-ms="12035" started-at="2018-09-12T09:06:23Z" finished-at="2018-09-12T09:06:35Z">
+      <class name="Nxt.minds2">
+        <test-method status="PASS" signature="main()[pri:0, instance:Nxt.minds2@6acdbdf5]" name="main" duration-ms="12035" started-at="2018-09-12T09:06:23Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- Nxt.minds2 -->
+    </test> <!-- Google -->
+    <test name="Annotations" duration-ms="16" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+      <class name="Nxt.NewTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Nxt.NewTest@1f57539]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2018-09-12T09:05:32Z" finished-at="2018-09-12T09:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Nxt.NewTest@1f57539]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Nxt.NewTest@1f57539]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:Nxt.NewTest@1f57539]" name="testCase1" duration-ms="0" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Nxt.NewTest@1f57539]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Nxt.NewTest@1f57539]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Nxt.NewTest@1f57539]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Nxt.NewTest@1f57539]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Nxt.NewTest@1f57539]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Nxt.NewTest@1f57539]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Nxt.NewTest@1f57539]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:Nxt.NewTest@1f57539]" name="testCase2" duration-ms="0" started-at="2018-09-12T09:06:35Z" finished-at="2018-09-12T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- Nxt.NewTest -->
+    </test> <!-- Annotations -->
   </suite> <!-- Suite -->
 </testng-results>
